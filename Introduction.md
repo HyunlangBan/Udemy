@@ -23,7 +23,7 @@
 <br>
 <br>
 
->*Abstract data type
+>* Abstract data type
 >
 >We just define what methods / funcitons the data structure will have, so we define the basic behavior.
 >
@@ -35,19 +35,18 @@ ADT는 특정한 데이터 구조를 위한 모델일 뿐이다. 우리는 ADT�
 
 만약에 데이터 구조가 stack이라면 우리는 push(), pop(), peek()를 사용할 수 있음을 안다.
 
-([실제 자료를 내부적으로 어떻게 저장하고 처리하는지에 대한 것은 따지지 않고, 이 자료형을 이용할 떄의 기능만 이야기하는 것](https://juff.tistory.com/entry/ADTAbstract-Data-Type))
+([실제 자료를 내부적으로 어떻게 저장하고 처리하는지에 대한 것은 따지지 않고, 이 자료형을 이용할 때의 기능만 이야기하는 것](https://juff.tistory.com/entry/ADTAbstract-Data-Type))
 
 
->*Data Structure
+>* Data Structure
 > The concrete implementation, the actual representation of the data
 > The aim is to be able to store and retrieve data in an efficient manner
 > What we want: to be able to insert / find items in O(1) time complexity and to be able to retreive items in O(1) as well
 > For example: arrays, linked lists, binary trees...
 
-데이터의 실제 표현
+Date Structure는 데이터의 실제 표현이며 구체적 구현이다.
 
-<br>
-<br>
+---
 
 
 Abstract Data Types | Data Structure
