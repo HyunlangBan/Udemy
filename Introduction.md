@@ -56,6 +56,6 @@ Queue               | array, linked list
 Priority queue      | heap
 Dictionary/hashmap  | array
 
-ADT and Data Structure are **not independent**rom each other.
+ADT and Data Structure are **not independent** from each other.
 
 ADT are the specification and every ADT have an underlying data structure that's going to implement the behavior that has been specified in the ADT.
