@@ -74,15 +74,18 @@ Refernece: next node
 - Remove item **at the beginning** of the linked list: Do not have to search the item, just update the reference accordingly --> O(1) time complexity
 - Remove item **at the end** of the linked list: Have to search for the given item which may take lot of time if the item is at the end --> O(N) time complexity
 
-
+<br>
 
 ### Doubly Linked Lists
+---
 - Problem with liked lists: Cannot go from back to front because the references are in the opposite directions.
    - SOLUTION: doubley linked list
    - Can get from everywhere to everywhere BUT it is not memeory friendly, we have to store lots of references. BUT there is no need to track the previous node during traversal!
    
    
+<br>
 ### Linked List versus Arrays
+---
 #### Search
 - Array List: **Index**를 알고 있을 때는 random access가 가능하므로 매우 효율적이다 --> O(1)
              하지만 index를 모를때는 array를 돌아야 할수도 있으므로 O(N)d이다.
