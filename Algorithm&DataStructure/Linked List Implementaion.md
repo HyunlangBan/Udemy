@@ -1,4 +1,4 @@
-### Insert
+### Insert at the Beginning
 ---
 실습코드
 ```python
@@ -53,7 +53,7 @@ class LinkedList(object):
 
 <br>
 
-### Traverse
+### Insert at the End, Traverse
 ---
 실습코드
 
