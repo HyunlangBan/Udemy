@@ -41,5 +41,5 @@ class LinkedList(object):
     while actualNode is not None:
         size += 1
         actualNode = actualNode.nextNode
-return size
+ return size
    
