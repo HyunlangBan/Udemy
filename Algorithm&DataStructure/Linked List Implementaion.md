@@ -15,9 +15,8 @@ class LinkedList(object):
       self.size = 0
       
   # O(1) !!!!!!
-  def insertStart(self):
-      
-      newNode = Node(self, data)
+  def insertStart(self, data):
+
       self.size += 1
       newNode = Node(data)
       
@@ -35,12 +34,12 @@ class LinkedList(object):
   
  # O(N) not good!!!!!
  def size2(self):
-    self.size = 0 -----> size = 0
-    actualNode = Node(data) ----> (X)
+ 
+    size = 0
     actualNode = self.head
     
     while actualNode is not None:
-        self.size += 1
+        size += 1
         actualNode = actualNode.nextNode
-return self.size-----> size
+return size
    
