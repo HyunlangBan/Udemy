@@ -44,3 +44,29 @@ fast access|slow access
 local variables|objects
 spaces is managed effieciently by CPU|memroy may be fragmented
 variables cannot be resized | variables can be resized
+
+
+### Stack and recursion
+- Recursive methods를 사용하는 것이 편리할 때: DFS, Factorial, traversing a binary search tree, linked list에서 item 검색 등
+- 모든 recursive 알고리즘들은 stack을 이용하는 간단한 메소드로 변형될 수 있다.
+- **우리가 recursion을 사용한다면, OS는 어쨌든 stack을 사용할 것이다.**
+
+#### Factorial
+```c++
+public void factorial(int n) {
+    if(n == 0)   # Base Case -- 종료 포인트
+        return 1;
+    
+    return n*factorial(n-1);       # Recursive Case
+```
+
+- Recursive 함수 호출들은 base case가 될때까지 stack안으로 push된다.
+- 만약 너무 많은 함수를 호출하여 push되었다면 stack은 꽉 차서 더이상의 공간이 남지 않을 수도 있다 --> **stack overflow!!**
+
+```
+return 1
+2*factorial(1)  ==> 2*1
+3*factorial(2)  ==> 3*2*1
+4*factorial(3)  ==> 4*3*2*1
+factorial(4)    ==  4*3*2*1
+```
