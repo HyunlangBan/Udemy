@@ -24,8 +24,10 @@
  - Local variables: stack에 있고 함수가 return되면 사라진다.
  - Stack memory는 한정적이다.
  
+ <br>
  
  ### Heap Memory
+ ---
  - 자동으로 관리되지 않는다.
  - A large region of memory
  - C: malloc() and calloc() funcion
@@ -46,7 +48,10 @@ spaces is managed effieciently by CPU|memroy may be fragmented
 variables cannot be resized | variables can be resized
 
 
+<br>
+
 ### Stack and recursion
+---
 - Recursive methods를 사용하는 것이 편리할 때: DFS, Factorial, traversing a binary search tree, linked list에서 item 검색 등
 - 모든 recursive 알고리즘들은 stack을 이용하는 간단한 메소드로 변형될 수 있다.
 - **우리가 recursion을 사용한다면, OS는 어쨌든 stack을 사용할 것이다.**
