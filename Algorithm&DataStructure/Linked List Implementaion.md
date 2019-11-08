@@ -47,7 +47,8 @@ class LinkedList(object):
 #### 헷갈리는 부분
 - Node의 초기 형태는 head와 pointer(nextNode)이다. 
 - 객체를 생성할때는 `__init__`(생성자)의 매개변수를 꼭 전달해주어야 한다.
-- linkedList의 초기 형태는 `self.head = None` 이라고 써있는데 왜 head는 Node로 초기화 하지 않는걸까?
+- linkedList의 초기 형태는 `self.head = None` 이라고 써있는데 왜 head는 `Node(None)`으로 초기화 하지 않는걸까?
+   - 어차피 `head`가 `None`이면 새 노드가 들어오게 되므로 굳이 노드로 설정해줄 필요가 없어서?
 - size는 생성되는 LinkedList 마다 다르므로 `self.size`
 - size1 메소드는 객체마다 사이즈가 저장되고 있으므로 간단하게 호출할수 있지만, size2에서는 `size`라는 변수로 메소드 안에서 크기를 직접 계산한다. 왜 `self.size`가 아닌지 약간 헷갈렸는데, 이것은 LinkedList의 크기가 아니고 메소드 내에서만 사용되는 `size`이기 때문이다.
 
