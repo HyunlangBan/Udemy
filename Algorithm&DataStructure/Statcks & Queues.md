@@ -75,3 +75,30 @@ return 1
 4*factorial(3)  ==> 4*3*2*1
 factorial(4)    ==  4*3*2*1
 ```
+
+<br>
+
+### Queue
+---
+- An abstract data type
+- Basic operations: enqueue() and dequeue(), peek()
+- FIFO structure: Fisrt in first out
+- It can be implemented with dynamic arrays as well as with linked lists
+- Important when implementing BFS algorithm for graph
+
+#### Enqueue
+Queue의 끝에 새 값들을 추가한다.
+
+#### Dequeue
+Queue의 맨 앞부터 삭제한다.
+
+#### Peek
+값을 삭제하지 않고 Queue의 맨 앞의 값만 가져온다.
+
+### Applications
+- When a resource is shared with several consumers (threads): store them in a queue --> ex) CPU scheduling
+- 데이터가 두 프로세스간에서 동시에 전달되지 않을때(asynchronously)  --> ex) IO buffers
+- Operational research applications or atochastic models relies heavily on queues.
+- 운영체제가 관련된 한 queue는 매우 중요하다. 안드로이드에서는 실행되어야하는 프로세스들을 추적하기위해 queue들을 유지한다. Queue에 저장된 프로세스들은 FIFO방식으로 처리된다.
+
+**Stack&Queue: The fundamental building block for most of the operating systems**
