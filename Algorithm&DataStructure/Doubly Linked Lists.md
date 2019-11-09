@@ -25,3 +25,14 @@ Single linked list에서는 previous node가 node를 찾을때까지 리스트�
    - for linked lists we need the previous node as well to find it. Usually we need to traverse the whole list
 - To remove a node from singly linked list -> we need the node + predecessor
 - To remove a node from doubly linked list -> we need the node
+
+
+### Practical(real-world) application
+- Low level memory management
+   - C programming malloc() and free() functions)
+   - We can manipulate the heap memory
+- 윈도우 실행창을 옮겨다닐때(Alt+Tab)
+- 포토 뷰어에서 이전 사진, 다음사진을 누를 때
+- 블록체인(비트코인)
+   - 블록 체인 자체는 해시 포인트를 가진 linked list이다.
+   - 두 개의 해시 값들: 자신의 해시와 이전의 블럭의 해시 값
