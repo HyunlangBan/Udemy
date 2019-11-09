@@ -16,6 +16,7 @@
 <br>
 
  ### Stack Memory(call stack)
+ ---
  - 메모리의 특별한 영역(in the RAM)
  - Call Stack은 컴퓨터 프로그램의 active subrountines/메소드/함수들에 대한 정보를 저장하는 abstract 데이터 타입이다.
  - 보통 detail은 숨겨져 있고 high-level 프로그래밍 언어에서 자동적으로 관리된다.
@@ -78,6 +79,14 @@ return 1
 factorial(4)    ==  4*3*2*1
 ```
 
+
+### Practical(real-world) Application of Stacks
+---
+- 웹 브라우저의 뒤로가기 버튼
+  - 최근 방문한 웹사이트들의 URL들이 stack에 push되고 뒤로가기 버튼은 그 URL들을 pop한다.
+- 소프트웨어의 실행취소 버튼(ex.포토샵, 그림판)
+- Stack memory는 지역 변수와 함수 호출들을 저장한다.
+
 <br>
 
 ### Queue
@@ -104,3 +113,4 @@ Queue의 맨 앞부터 삭제한다.
 - 운영체제가 관련된 한 queue는 매우 중요하다. 예를 들어 안드로이드에서는 실행되어야하는 프로세스들을 추적하기위해 queue들을 유지한다. Queue에 저장된 프로세스들은 **FIFO**방식으로 처리된다.
 
 **Stack&Queue: The fundamental building block for most of the operating systems**
+
