@@ -65,7 +65,24 @@
       2. 루트 노드와 successor를 교체한다.
       3. successor 위치에 right child가 있으므로 루트 노드와 해당 child를 포인터를 통해 연결한다.
     - 여기서도 find와 deletion이 이루어지므로 복잡도는 O(logN)
-    
+
+### Traversal
+---
+- In-order traversal: Visit left subtree + the root node + the right subtree recursively.
+- Pre-order traversal: Visit the root + left subtree + the right subtree recursively.
+- Post-order traversal: Visit the left subtree + right subtree + the root recursively.
+
+```
+                  32
+              10      55
+           1     19       79
+              16    23          
+```
+**In-order Traversal**: 1 - 10 - 16 - 19 - 23 - 32 - 55 - 79
+
+**Pre-order Traversal**: 32 - 10 - 1 - 19 - 16 - 23 - 55 - 79
+
+**Post-order Traversal**: 1 - 16 - 23 - 19 - 10 - 79 - 55 - 32
   
 
   
