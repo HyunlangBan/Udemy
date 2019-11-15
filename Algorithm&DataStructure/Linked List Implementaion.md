@@ -7,12 +7,24 @@ class Node(object):
   def __init__(self, data):
       self.data = data
       self.nextNode = None
+      
+# optinal parameter 이용
+ 
+# def __init__(self, value, next_node=None):
+#     self.value = value
+#     self.next_node = next_node
+   
   
 class LinkedList(object):
   
   def __init__(self):
       self.head = None               # self.head = Node(None)
       self.size = 0
+      
+# optional parameter 이용
+
+# def __init__(self, value=None):
+#     self.head_node = Node(value)
       
   # O(1) !!!!!!
   def insertStart(self, data):
