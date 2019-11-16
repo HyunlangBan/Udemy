@@ -73,10 +73,10 @@
 - Post-order traversal: Visit the left subtree + right subtree + the root recursively.
 
 ```
-                  32
-              10      55
-           1     19       79
-              16    23          
+                      32 
+              10             55
+          1       19            79
+               16    23          
 ```
 **In-order Traversal**: 1 - 10 - 16 - 19 - 23 - 32 - 55 - 79
 
