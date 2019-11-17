@@ -84,5 +84,18 @@
 
 **Post-order Traversal**: 1 - 16 - 23 - 19 - 10 - 79 - 55 - 32
   
+<br>
 
-  
+### Running Times
+---
+
+|    |Average Case|Worst Case
+:-----:|:------------:|:----------:
+Space|O(n)|O(n)
+Insert|O(log n)|O(n)
+Delete|O(log n)|O(n)
+Search|O(log n)|O(n)
+ 
+- 만약 sotred array에서 binary search tree를 만들면 모두 right child로만 이루어진 불균형 트리가 나오게된다. => Running time: O(n)
+  - 가능한 균형잡힌 트리를 만드는 것이 중요한 이유이다.(러닝 타임이 짧아진다.)
+- BST는 linked list와 다르게 앞이나 뒤에 삽입 또는 삭제하는 모든 경우의 average time complexity가 O(log n)이다. => **PREDICTABLE**
