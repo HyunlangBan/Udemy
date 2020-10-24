@@ -11,4 +11,4 @@ Algorithm and Data Structures in Python by Holczer Balazs
   - [Linked List Implementaion](https://github.com/HyunlangBan/Udemy/blob/master/Algorithm%26DataStructure/Linked%20List%20Implementaion.md)
 - Data Structure - Stacks & Queues
   - [Stacks&Queues](https://github.com/HyunlangBan/Udemy/blob/master/Algorithm%26DataStructure/Statcks%20%26%20Queues.md)
-  - [Implementaion](https://github.com/HyunlangBan/Udemy/blob/master/Algorithm%26DataStructure/Statcks%20%26%20Queues.md)
+  - [Implementaion](https://github.com/HyunlangBan/Udemy/blob/master/Algorithm%26DataStructure/Stack%26Queue%20Implementation.md)
